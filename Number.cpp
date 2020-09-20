@@ -10,18 +10,19 @@ void fun2(int n)
 }
 
 
-/*
+
 void fun(int n)
 {
     if(n%2)
         cout<<"Odd";
     else cout<<"Even";
-}*/
+}
 
 main()
 {
     int n;
+	cout "enter no.";
     cin>>n;
-//    fun(n);
+    fun(n);
     fun2(n);
 }
